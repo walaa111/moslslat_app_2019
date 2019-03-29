@@ -21,14 +21,14 @@
 }
 
 body {
-    -webkit-touch-callout: none;
+-webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-color: black;
+    background-color: #1c1a20;
     background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-linear-gradient(top, black 0%,black 51%);
+    background-image: -webkit-linear-gradient(top, #1c1a20 0%,#1c1a20 51%);
     background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, black), color-stop(0.51, black) );
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #1c1a20), color-stop(0.51, #1c1a20) );
     background-attachment: fixed;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -42,17 +42,19 @@ body {
 /* Portrait layout (default) */
 .app {
     background: url(../img/logo.png) no-repeat;
-    position: absolute;
-    left: 0px;
-    top: 19%;
-    /* width: 100%; */
-    text-align: center;
-    height: 100%;
-    margin: 0px;
+
     background-size: contain;
-    /* background-position: 101%; */
-    right: 0px;
-    background-position-x: 34%;;
+
+    bottom: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+      width: 300px;
+    border-radius: 50%;
+    height: 300px;
 }
 
 /* Landscape layout (with min-width) */
@@ -66,24 +68,13 @@ body {
 
 
 @media (max-width:1024px){
-    .app {
- 
-    left: 0%;
 
-}
 }
 @media (max-width:768px){
-    .app {
- 
-    left: 0%;
 
-}
 }
 @media (max-width:600px){
-    .app {
-    left: 0%;
 
-}
 }
 h1 {
     font-size:24px;

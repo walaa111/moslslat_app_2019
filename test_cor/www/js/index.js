@@ -67,13 +67,13 @@ var app = {
 
         var inAppBrowserbRef = cordova.InAppBrowser.open('https://electrostar.ovplatform.tk', '_self', 'location=no,toolbar=no');
 
-        inAppBrowserbRef = cordova.InAppBrowser.open('http://onsport.fm/onsport/', '_self', 'location=no,toolbar=no,zoom=no');
+        inAppBrowserbRef = cordova.InAppBrowser.open('http://walaa.realdeal.com.eg/moslslat_app_2019/', '_self', 'location=no,toolbar=no,zoom=no');
 
         //admob
      // Set AdMobAds options:
       admob.setOptions({
-        publisherId:           "ca-app-pub-7251676025279948/4481965798",  // Required
-        interstitialAdId:      "ca-app-pub-7251676025279948/9881809746",  // Optional
+        publisherId:           "ca-app-pub-7251676025279948/5089114653",  // Required
+        interstitialAdId:      "ca-app-pub-7251676025279948/2271379628",  // Optional
         autoShowBanner:        true,                                      // Optional
         autoShowRInterstitial: false,                                     // Optional
         autoShowRewarded:      false,                                     // Optional
