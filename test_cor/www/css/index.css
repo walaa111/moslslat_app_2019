@@ -25,10 +25,10 @@ body {
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
     background-color: #1c1a20;
-    background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-linear-gradient(top, #1c1a20 0%,#190e2e 51%);
-    background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #1c1a20), color-stop(0.51, #190e2e) );
+    background-image: linear-gradient(top, white 0%, white 51%);
+    background-image: -webkit-linear-gradient(top, white 0%,white 51%);
+    background-image: -ms-linear-gradient(top, white 0%, #E4E4E4 51%);
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, white), color-stop(0.51, white) );
     background-attachment: fixed;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 12px;
